@@ -9,7 +9,11 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
+import java.net.URI;
+
 public class InfoActivity extends AppCompatActivity {
+
+    private static final Object URI = Uri.parse("tel:0123456789");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +59,14 @@ public class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
+    public void createPhoneIntent(View view){
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData((Uri)URI);
+        phoneIntent.setData(Uri.parse("tel:0123456789"));
+//        phoneIntent.setAction(Intent.ACTION_DIAL);
+        startActivity(phoneIntent);
+
+    }
 
 
 }
