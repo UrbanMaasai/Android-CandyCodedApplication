@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin.version" value="3.5.1" />
     <property name="show.do.not.ask.upgrade.gradle.version" value="5.4.1" />
   </component>
-  <component name="RunManager" selected="Android JUnit._3_StartThePhoneActivity">
+  <component name="RunManager" selected="Android JUnit._4_ShareACandyWithAnIntent">
     <configuration name="All in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,6 +126,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._3_StartThePhoneActivity" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_ShareACandyWithAnIntent" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._4_ShareACandyWithAnIntent" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -192,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit._4_ShareACandyWithAnIntent" />
         <item itemvalue="Android JUnit._3_StartThePhoneActivity" />
         <item itemvalue="Android JUnit._2_StartTheGoogleMapsActivity" />
         <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity" />
@@ -233,14 +250,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Completed module- Start Google maps activity" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="166" width="816" height="775" key="#Intentions" timestamp="1602351840901">
+    <state x="578" y="166" width="816" height="865" key="#Intentions" timestamp="1602358065780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="578" y="166" width="816" height="775" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1602351840901" />
-    <state x="912" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1602344792960">
+    <state x="578" y="166" width="816" height="865" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1602358065780" />
+    <state x="912" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1602353340064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="912" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602344792960" />
+    <state x="912" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602353340064" />
     <state x="1096" y="306" key="AndroidCreateXmlResourceDialog" timestamp="1602345358769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,38 +266,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="811" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602349623577" />
-    <state width="1008" height="237" key="GridCell.Tab.0.bottom" timestamp="1602352928760">
+    <state width="1002" height="237" key="GridCell.Tab.0.bottom" timestamp="1602359597127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1008" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602352928760" />
-    <state width="1008" height="237" key="GridCell.Tab.0.center" timestamp="1602352928760">
+    <state width="1002" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602359597127" />
+    <state width="1002" height="237" key="GridCell.Tab.0.center" timestamp="1602359597126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1008" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602352928760" />
-    <state width="1008" height="237" key="GridCell.Tab.0.left" timestamp="1602352928760">
+    <state width="1002" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602359597126" />
+    <state width="1002" height="237" key="GridCell.Tab.0.left" timestamp="1602359597126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1008" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602352928760" />
-    <state width="1008" height="237" key="GridCell.Tab.0.right" timestamp="1602352928760">
+    <state width="1002" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602359597126" />
+    <state width="1002" height="237" key="GridCell.Tab.0.right" timestamp="1602359597126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1008" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602352928760" />
-    <state width="1083" height="328" key="GridCell.Tab.1.bottom" timestamp="1602351951352">
+    <state width="1002" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602359597126" />
+    <state width="1117" height="328" key="GridCell.Tab.1.bottom" timestamp="1602355280574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1083" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602351951352" />
-    <state width="1083" height="328" key="GridCell.Tab.1.center" timestamp="1602351951352">
+    <state width="1117" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602355280574" />
+    <state width="1117" height="328" key="GridCell.Tab.1.center" timestamp="1602355280574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1083" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602351951352" />
-    <state width="1083" height="328" key="GridCell.Tab.1.left" timestamp="1602351951352">
+    <state width="1117" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602355280574" />
+    <state width="1117" height="328" key="GridCell.Tab.1.left" timestamp="1602355280574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1083" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602351951352" />
-    <state width="1083" height="328" key="GridCell.Tab.1.right" timestamp="1602351951352">
+    <state width="1117" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602355280574" />
+    <state width="1117" height="328" key="GridCell.Tab.1.right" timestamp="1602355280574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1083" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602351951352" />
+    <state width="1117" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602355280574" />
+    <state x="1150" y="455" key="ReplaceDuplicatesPrompt" timestamp="1602356846705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1150" y="455" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1602356846705" />
     <state x="911" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1602339088804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -289,13 +310,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1072" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602342756015" />
-    <state x="630" y="178" key="extract.method.dialog" timestamp="1602352643803">
+    <state x="630" y="178" width="540" height="498" key="extract.method.dialog" timestamp="1602356820940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="630" y="178" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602352643803" />
-    <state x="1059" y="140" key="refactoring.ChangeSignatureDialog" timestamp="1602351094067">
+    <state x="630" y="178" width="540" height="498" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602356820940" />
+    <state x="1059" y="140" key="refactoring.ChangeSignatureDialog" timestamp="1602355534306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1059" y="140" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602351094067" />
+    <state x="1059" y="140" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602355534306" />
   </component>
 </project>
