@@ -3,6 +3,7 @@ package com.pluralsight.candycoded;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -77,14 +78,15 @@ public class DetailActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        createShareIntent();
         return super.onOptionsItemSelected(item);
     }
     private void createShareIntent(){
-        Intent shareIntent = new Intent(ACTION_SEND);
-        Intent setType = shareIntent.setType("text/plain");
-        shareIntent.putExtra(Intent.EXTRA_TEXT, SHARE_DESCRIPTION + mCandyImageUrl + HASHTAG_CANDYCODED);
-        //String concatString = (SHARE_DESCRIPTION + mCandyImageUrl + HASHTAG_CANDYCODED);
-//concatString);
+        Intent shareIntent;
+        shareIntent = new Intent(ACTION_SEND);
+        shareIntent.setType("text/plain");
+        String concatString = (SHARE_DESCRIPTION + mCandyImageUrl + HASHTAG_CANDYCODED);
+        shareIntent.putExtra(Intent.EXTRA_TEXT, concatString);
         startActivity(shareIntent);
     }
 }
